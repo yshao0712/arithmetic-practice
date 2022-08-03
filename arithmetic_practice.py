@@ -49,6 +49,3 @@ def generate_page(path,type,q_num):
 
     pdf.output(name = path + "problems.pdf", dest = "F")
     answers.output(name = path + "answers.pdf", dest = "F")
-
-if __name__ == "__main__":
-    generate_page("/Users/Alina/Documents/","addition",100)
